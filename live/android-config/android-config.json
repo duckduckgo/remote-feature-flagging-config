@@ -3,15 +3,15 @@
  "rollouts" : [
   {
     "featureName" : "feature_full_enabled",
-    "rolloutToPercentage": 100,
+    "rolloutToPercentage": 100
   },
   {
     "featureName" : "feature_partly_enabled",
-    "rolloutToPercentage": 50,
+    "rolloutToPercentage": 50
   },
   {
     "featureName" : "feature_not_enabled",
-    "rolloutToPercentage": 0,
+    "rolloutToPercentage": 0
   }
  ]
 }
