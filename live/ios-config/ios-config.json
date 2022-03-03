@@ -1,5 +1,5 @@
 {
-  "version" : 2,
+  "version" : 3,
   "rollouts" :  [
     {
       "featureName" : "new_tracklinks_logic_enabled",
@@ -12,6 +12,14 @@
     {
       "featureName" : "some_new_feature",
       "rolloutToPercentage": 50,
+    },
+    {
+      "featureName" : "feature_off",
+      "rolloutToPercentage": 0,
+    },
+    {
+      "featureName" : "feature_on",
+      "rolloutToPercentage": 100,
     }
   ]
 }
