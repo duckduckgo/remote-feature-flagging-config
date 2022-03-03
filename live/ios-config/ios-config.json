@@ -8,6 +8,10 @@
     {
       "featureName" : "voice_search_enabled",
       "rolloutToPercentage": 50,
+    },
+    {
+      "featureName" : "some_new_feature",
+      "rolloutToPercentage": 50,
     }
   ]
 }
