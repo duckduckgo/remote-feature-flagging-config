@@ -2,12 +2,16 @@
  "version" : 1,
  "rollouts" : [
   {
-    "featureName" : "new_tracklinks_logic_enabled",
+    "featureName" : "feature_full_enabled",
     "rolloutToPercentage": 90,
   },
   {
-    "featureName" : "voice_search_enabled",
+    "featureName" : "feature_partly_enabled",
     "rolloutToPercentage": 50,
+  },
+  {
+    "featureName" : "feature_not_enabled",
+    "rolloutToPercentage": 0,
   }
  ]
 }
