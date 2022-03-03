@@ -3,7 +3,7 @@
  "rollouts" : [
   {
     "featureName" : "feature_full_enabled",
-    "rolloutToPercentage": 90,
+    "rolloutToPercentage": 100,
   },
   {
     "featureName" : "feature_partly_enabled",
