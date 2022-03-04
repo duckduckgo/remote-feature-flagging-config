@@ -1,6 +1,52 @@
 {
-  "version" : 7,
+  "version" : 8,
   "rollouts" :  [
-    
+    {
+      "featureName" : "new_tracklinks_logic_enabled",
+      "isEnabled" : true,
+      "rolloutToPercentage": 90
+    },
+    {
+      "featureName" : "voice_search_enabled",
+      "isEnabled" : true,
+      "rolloutToPercentage": 50
+    },
+    {
+      "featureName" : "some_new_feature",
+      "isEnabled" : true,
+      "rolloutToPercentage": 50
+    },
+    {
+      "featureName" : "feature_off",
+      "isEnabled" : false,
+    },
+    {
+      "featureName" : "feature_on",
+      "isEnabled" : true,
+    },
+    {
+      "featureName" : "feature_with_filters_same_version",
+      "isEnabled" : true,
+      "rolloutToPercentage": 90,
+      "minimumAppVersion" : "7.65.11"
+    },
+    {
+      "featureName" : "feature_with_filters_too_big_major",
+      "isEnabled" : true,
+      "rolloutToPercentage": 90,
+      "minimumAppVersion" : "8.65.11"
+    },
+    {
+      "featureName" : "feature_with_filters_too_big_minor",
+      "isEnabled" : true,
+      "rolloutToPercentage": 90,
+      "minimumAppVersion" : "7.66.11"
+    },
+    {
+      "featureName" : "feature_with_filters_too_big_patch",
+      "isEnabled" : true,
+      "rolloutToPercentage": 90,
+      "minimumAppVersion" : "7.65.12"
+    }
   ]
 }
