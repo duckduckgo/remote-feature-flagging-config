@@ -1,5 +1,5 @@
 {
-  "version" : 5,
+  "version" : 6,
   "rollouts" :  [
     {
       "featureName" : "new_tracklinks_logic_enabled",
@@ -25,10 +25,28 @@
       "isEnabled" : true,
     },
     {
-      "featureName" : "feature_with_filters",
+      "featureName" : "feature_with_filters_same_version",
       "isEnabled" : true,
       "rolloutToPercentage": 90,
-      "minimumAppVersion" : "7.65.11",
+      "minimumAppVersion" : "7.65.11"
+    },
+    {
+      "featureName" : "feature_with_filters_too_big_major",
+      "isEnabled" : true,
+      "rolloutToPercentage": 90,
+      "minimumAppVersion" : "8.65.11"
+    },
+    {
+      "featureName" : "feature_with_filters_too_big_minor",
+      "isEnabled" : true,
+      "rolloutToPercentage": 90,
+      "minimumAppVersion" : "7.66.11"
+    },
+    {
+      "featureName" : "feature_with_filters_too_big_patch",
+      "isEnabled" : true,
+      "rolloutToPercentage": 90,
+      "minimumAppVersion" : "7.65.12"
     }
   ]
 }
