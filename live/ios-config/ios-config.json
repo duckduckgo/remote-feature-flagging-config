@@ -1,25 +1,34 @@
 {
-  "version" : 3,
+  "version" : 5,
   "rollouts" :  [
     {
       "featureName" : "new_tracklinks_logic_enabled",
-      "rolloutToPercentage": 90,
+      "isEnabled" : true,
+      "rolloutToPercentage": 90
     },
     {
       "featureName" : "voice_search_enabled",
-      "rolloutToPercentage": 50,
+      "isEnabled" : true,
+      "rolloutToPercentage": 50
     },
     {
       "featureName" : "some_new_feature",
-      "rolloutToPercentage": 50,
+      "isEnabled" : true,
+      "rolloutToPercentage": 50
     },
     {
       "featureName" : "feature_off",
-      "rolloutToPercentage": 0,
+      "isEnabled" : false,
     },
     {
       "featureName" : "feature_on",
-      "rolloutToPercentage": 100,
+      "isEnabled" : true,
+    },
+    {
+      "featureName" : "feature_with_filters",
+      "isEnabled" : true,
+      "rolloutToPercentage": 90,
+      "minimumAppVersion" : "7.65.11",
     }
   ]
 }
