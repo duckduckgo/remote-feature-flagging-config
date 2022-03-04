@@ -11,7 +11,7 @@
     "filters": [
      {
       "key" : "minimumAppVersion",
-      "value" : "5.115.0"
+      "value" : "5.114.0"
      }
     ]
   },
